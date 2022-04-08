@@ -36,3 +36,22 @@
   transform: translateX(-350px);
   transition: all 500ms ease-in;
 }
+
+.page__wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.page{
+  min-width: 40px;
+  text-align: center;
+  padding: 10px;
+  border: 1px dashed teal;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.page__current {
+  border: 2px solid orange;
+  font-weight: bold;
+}
