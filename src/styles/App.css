@@ -67,4 +67,18 @@
 }
 .navbar__links{
   margin-left: auto;
+  margin-right: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
+.navbar__links a{
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.navbar__links a:hover{
+  color: rgb(255, 220, 174);
+  
+}
+
